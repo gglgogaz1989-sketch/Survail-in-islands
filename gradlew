@@ -6,4 +6,7 @@
 ##############################################################################
 
 DIRNAME=$(dirname "$0")
-exec "$DIRNAME/gradle/wrapper/gradle-wrapper.jar" "$@"
+CLASSPATH="$DIRNAME/gradle/wrapper/gradle-wrapper.jar"
+
+# Запуск через Java, а не через exec
+exec java -cp "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
