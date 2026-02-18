@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#87CEEB">  <!-- небесно-голубой фон -->
+    android:layout_height="match_parent">
 
-    <!-- Круглая кнопка "Играть" -->
     <Button
-        android:id="@+id/btnPlay"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:id="@+id/playButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
         android:text="Играть"
-        android:textSize="20sp"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/round_button"
         android:layout_centerInParent="true"/>
 </RelativeLayout>
