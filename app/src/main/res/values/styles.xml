@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.Survival" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Здесь можно настроить фон, шрифты и цвета -->
+    </style>
+</resources>
