@@ -1,10 +1,10 @@
 plugins {
     id 'com.android.application'
-    id 'org.jetbrains.kotlin.android' // только если используешь Kotlin
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
-    namespace "com.gglgog.survailinislands" // уникальный namespace
+    namespace "com.gglgog.survailinislands"  // обязательно укажи уникальный namespace
     compileSdk 34
 
     defaultConfig {
